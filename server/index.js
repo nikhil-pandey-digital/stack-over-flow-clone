@@ -18,9 +18,9 @@ app.use(cors({
        credentials: true
       }));
 
-app.use("/", (req, res) => {
-  res.send("This is a stack overflow clone API");
-});
+// app.use("/", (req, res) => {
+//   res.send("This is a stack overflow clone API");
+// });
 
 app.use("/user", userRoutes);
 app.use("/questions", questionRoutes);
