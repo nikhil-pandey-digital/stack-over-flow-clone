@@ -152,7 +152,7 @@ Features of  Stack Overflow Clone are as follows:
   </tr>
   <tr>
      <td>
-<img src="https://ibb.co/PmGXBDQ" border="0"></td>
+<img src="https://i.ibb.co/r728nds/image.png" border="0"></td>
     <td>
 <img src="https://i.ibb.co/LRv0rQh/screely-1692896637899.png" alt="screely-1677925947288" border="0"></td>
   </tr>
