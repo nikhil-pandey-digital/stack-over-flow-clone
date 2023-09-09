@@ -3,7 +3,7 @@ import axios from "axios";
 // baseURL: "http://localhost:5000/"
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/",
+  baseURL: "https://stack-over-flow-clone-api.vercel.app/",
 });
 
 API.interceptors.request.use((req) => {
