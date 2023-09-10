@@ -2,7 +2,7 @@
 
 <h1 align="center"> Stack Overflow Clone 🚀</h1> 
 <p align="center">
-  <a href="https://stack-overflow-clone-y1fv.onrender.com/">
+  <a href="https://stack-over-flow-frontend.vercel.app/">
     <img alt="Stack Overflow Clone image" title="Stack Overflow Clone" src="https://i.ibb.co/TKHkYnP/Whats-App-Image-2023-08-24-at-9-23-39-PM.jpg" width="450">
     
   </a>
@@ -33,9 +33,9 @@ Welcome to **Stack-Overflow-Clone**, a platform dedicated to fostering a vibrant
 
 ### Important links related to the project
 
-* <b>Deployed website 👉: </b> [Stack-Overflow-Clone]()
+* <b>Deployed website 👉: </b> [Stack-Overflow-Clone](https://stack-over-flow-frontend.vercel.app/)
 
-* <b>The backend is hosted here 👉: </b> [Stack-Overflow-Clone-Backend]()
+
 
 
 ## Technology Used
