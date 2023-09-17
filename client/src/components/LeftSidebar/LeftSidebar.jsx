@@ -3,6 +3,7 @@ import "./LeftSidebar.css";
 import { NavLink } from "react-router-dom";
 import Globe from "../../assets/Globe.svg";
 
+
 const LeftSidebar = ({ slideIn, handleSlideIn }) => {
   const slideInStyle = {
     transform: "translateX(0%)",
@@ -57,8 +58,21 @@ const LeftSidebar = ({ slideIn, handleSlideIn }) => {
               <p>Users</p>
             </NavLink>
           </button>
+
+          <button  className="nav-btn">
+            <NavLink
+              to="/Location"
+              className="side-nav-links"
+              activeclassname="active"
+              style={{ paddingLeft: "40px" }}
+            >
+              <p>your location</p>
+            </NavLink>
+          </button>
+
         </div>
       </nav>
+    
     </div>
   );
 };

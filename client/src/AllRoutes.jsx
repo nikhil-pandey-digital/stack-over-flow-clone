@@ -9,6 +9,7 @@ import DisplayQuestion from "./Pages/Questions/DisplayQuestion";
 import Tags from "./Pages/Tags/Tags";
 import Users from "./Pages/Users/Users";
 import UserProfile from "./Pages/UserProfile/UserProfile";
+import GeoLocationMap from "./components/Map/GeoLocationMap";
 
 const AllRoutes = ({ slideIn, handleSlideIn }) => {
   return (
@@ -41,6 +42,13 @@ const AllRoutes = ({ slideIn, handleSlideIn }) => {
         path="/Users/:id"
         element={
           <UserProfile slideIn={slideIn} handleSlideIn={handleSlideIn} />
+        }
+      />
+
+      <Route
+        path="/Location"
+        element={
+          <GeoLocationMap slideIn={slideIn} handleSlideIn={handleSlideIn} />
         }
       />
     </Routes>

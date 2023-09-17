@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import AllRoutes from "./AllRoutes";
+import GeoLocationMap from "./components/Map/GeoLocationMap";
 import { fetchAllQuestions } from "./actions/question";
 import { fetchAllUsers } from "./actions/users";
 
@@ -34,6 +35,7 @@ function App() {
       <Router>
         <Navbar handleSlideIn={handleSlideIn} />
         <AllRoutes slideIn={slideIn} handleSlideIn={handleSlideIn} />
+       
       </Router>
     </div>
   );
