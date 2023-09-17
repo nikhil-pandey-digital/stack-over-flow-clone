@@ -25,6 +25,24 @@ const ProfileBio = ({ currentProfile }) => {
           <p>No bio found</p>
         )}
       </div>
+
+      <div>
+        <h4>Login history</h4>
+
+        {currentProfile?.loginHistory ? (
+          <ul>
+            {currentProfile.loginHistory.reverse().map((loginInfo) => (
+              <li key={loginInfo._id}>
+                {new Date(loginInfo.timeStamp).toLocaleString()} -{" "}
+                {loginInfo.browser}, {loginInfo.os}, {loginInfo.platform}, IP:{" "}
+                {loginInfo.ipAddress}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <></>
+        )}
+      </div>
     </div>
   );
 };
