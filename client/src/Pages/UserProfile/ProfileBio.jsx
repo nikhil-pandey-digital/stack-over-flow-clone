@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProfileBio = ({ currentProfile }) => {
+const ProfileBio = ({ currentProfile, currentUser }) => {
   return (
     <div>
       <div>
@@ -26,23 +26,25 @@ const ProfileBio = ({ currentProfile }) => {
         )}
       </div>
 
-      <div>
-        <h4>Login history</h4>
+      {currentProfile?._id === currentUser?.result._id && (
+        <div>
+          <h4>Login history</h4>
 
-        {currentProfile?.loginHistory ? (
-          <ul>
-            {currentProfile.loginHistory.reverse().map((loginInfo) => (
-              <li key={loginInfo._id}>
-                {new Date(loginInfo.timeStamp).toLocaleString()} -{" "}
-                {loginInfo.browser}, {loginInfo.os}, {loginInfo.platform}, IP:{" "}
-                {loginInfo.ipAddress}
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <></>
-        )}
-      </div>
+          {currentProfile?.loginHistory ? (
+            <ul>
+              {currentProfile.loginHistory.reverse().map((loginInfo) => (
+                <li key={loginInfo._id}>
+                  {new Date(loginInfo.timeStamp).toLocaleString()} -{" "}
+                  {loginInfo.browser}, {loginInfo.os}, {loginInfo.platform}, IP:{" "}
+                  {loginInfo.ipAddress}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <></>
+          )}
+        </div>
+      )}
     </div>
   );
 };

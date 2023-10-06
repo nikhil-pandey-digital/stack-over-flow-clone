@@ -59,7 +59,7 @@ const UserProfile = ({ slideIn, handleSlideIn }) => {
                 setSwitch={setSwitch}
               />
             ) : (
-              <ProfileBio currentProfile={currentProfile} />
+              <ProfileBio currentProfile={currentProfile} currentUser={currentUser}/>
             )}
           </>
         </section>
