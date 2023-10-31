@@ -1,19 +1,14 @@
 
 
-<h1 align="center"> Stack Overflow Clone 🚀</h1> 
+<h1 align="center"> Stack Overflow Clone 🧑‍💻</h1> 
+
+
 <p align="center">
-  <a href="https://stack-over-flow-frontend.vercel.app/">
-    <img alt="Stack Overflow Clone image" title="Stack Overflow Clone" src="https://i.ibb.co/TKHkYnP/Whats-App-Image-2023-08-24-at-9-23-39-PM.jpg" width="450">
-    
-  </a>
+ Stack Overflow is a web application for developers where they can ask questions and get Relevent answers from the global community of experienced Developers
 </p>
 
 <p align="center">
-Welcome to **Stack-Overflow-Clone**, a platform dedicated to fostering a vibrant community of developers helping developers by providing a space to ask questions, share knowledge, and find solutions together. 
-</p>
-
-<p align="center">
-  <a href="">Stack Overflow Clone
+  <a href="https://stack-over-flow-frontend.vercel.app/">Stack Overflow Clone
   </a>
 </p>
 
@@ -21,10 +16,8 @@ Welcome to **Stack-Overflow-Clone**, a platform dedicated to fostering a vibrant
 ## Table of Contents
 
 - [Important Links](#important-links-related-to-the-project)
-- [Technology Used](#technology-used)
 - [Features](#features)
-- [Top Level Directory Structure](#top-level-directory-structure)
-- [Screenshots of the project](#screenshots-of-the-project)
+- [Technology Used](#technology-used)
 - [Installation](#installation)
 - [Contributions](#contributions)
 - [Usage](#usage)
@@ -35,7 +28,19 @@ Welcome to **Stack-Overflow-Clone**, a platform dedicated to fostering a vibrant
 
 * <b>Deployed website 👉: </b> [Stack-Overflow-Clone](https://stack-over-flow-frontend.vercel.app/)
 
+ 
+## Features
 
+Features of  Stack Overflow Clone are as follows:
+- **Login & SingnUp:** Create account by Signing up or Login if you have an Account Already.
+- **Ask Questions:** Post your coding questions inorder to get Answers of your questions from fellow developers.
+- **Write Answers:** Provide Answers to  Questions in which you are knowledgeable and Share your knowledge with other Developers
+- **Upvote & Downvote:** Upvote helpful questions and answers if it is helpful and DownVote it if it not helpful 
+- **Tags & Categories:** Organize content by adding relevant tags and categories to questions.
+- **User-Location:** Get to see your current Location on  map in the application
+- **User Profiles:** Users can see profiles of each other, user can add & edit information to their profiles.
+- **Login History** Users can see their login history under their profile secion 
+- **Responsive Design:** Enjoy a seamless experience across devices, from desktop to mobile.
 
 
 ## Technology Used
@@ -48,20 +53,10 @@ Welcome to **Stack-Overflow-Clone**, a platform dedicated to fostering a vibrant
 |    MongoDB Atlas, Mongoose    | Database for the application|
 | Bcrypt     |    Password Management      |   
 | JSON Web Token     |    Authorization and Authentication |
-| Render     |     Deployment     |  
+| Netlify     |     Deployment     |  
 | Postman | API Testing, Debugging and Documentation |
- 
-## Features
 
-Features of  Stack Overflow Clone are as follows:
-
-- **Ask & Answer:** Post your coding questions and provide answers to help fellow developers.
-- **Voting:** Upvote helpful questions and answers to recognize and encourage valuable contributions.
-- **Tags & Categories:** Organize content by adding relevant tags and categories to questions.
-- **Search:** Easily find answers using our powerful search functionality.
-- **User Profiles:** Build your developer identity, showcase your skills, and keep track of your contributions.
-- **Responsive Design:** Enjoy a seamless experience across devices, from desktop to mobile.
-
+<!--
 ## Top-level directory structure
 
 	├── client                   # Frontend React.js directory
@@ -89,7 +84,7 @@ Features of  Stack Overflow Clone are as follows:
 <img src="https://i.ibb.co/BK8KLHM/MVC-Architecture.jpg" alt="mvc architecture" height="400"/>
 </div>
 <br/>
-
+-->
 ## Screenshots of the project
 <table>
   <tr>
