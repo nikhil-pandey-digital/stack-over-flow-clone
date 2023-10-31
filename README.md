@@ -84,7 +84,7 @@ Features of  Stack Overflow Clone are as follows:
 <img src="https://i.ibb.co/BK8KLHM/MVC-Architecture.jpg" alt="mvc architecture" height="400"/>
 </div>
 <br/>
--->
+
 ## Screenshots of the project
 <table>
   <tr>
@@ -153,7 +153,7 @@ Features of  Stack Overflow Clone are as follows:
   </tr>
 </table>
 
-
+-->
 
 ##  Installation
 <br>
